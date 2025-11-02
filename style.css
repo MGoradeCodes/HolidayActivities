@@ -1,0 +1,154 @@
+body{
+    background-color: antiquewhite;
+}
+
+nav h1 {
+    margin-left: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(140, 100, 68);
+    color: white;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+ul {
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+#Intro{
+    height: 75vh;
+    width: 100%;
+    background-image: url("trial.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+#Intro div{
+    height: 400px;
+    width: 1000px;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+#Intro div button{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    right: 45%;
+    background-color: rgba(0,255,0, 0.18);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+}
+#Intro div button:hover{
+    background-color: rgba(255, 255, 255, 0.18);
+    color: green;
+}
+
+
+#EXP div p{
+    color: black;
+    padding: 0;
+    font-size: 25px;
+    width: 985px;
+    margin-left: 160px;
+    text-align: center;
+    transform: translateY(10px);
+    text-align: center;
+    display: inline-block;
+    line-height: 32px;
+    margin-bottom: none;
+}
+
+#EXP div{
+    padding: none;
+    margin: none;
+}
+
+#Destination{
+    height: 100vh;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url("Destination.png");
+    box-shadow: rgba(0, 0, 0, 0.548) 0px 48px 100px 0px;
+    background-size: cover;
+}
+
+#Destination h1{
+    color: white;
+    text-align: center;
+}
+
+img{
+    max-height: 35%;
+    height: auto;
+    object-fit: cover;
+    display: inline;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: none;
+}
+
+.image{
+    height: auto;
+    width: 250px;
+    border: 2px solid white;
+    
+    
+    
+}
+#EXP{
+    height: 100vh;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url("Notebook.jpg");
+    background-size: 1000px 500px;
+    box-shadow: rgba(0, 0, 0, 0.548) 0px 48px 100px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+.special{
+    border: 2px solid white;
+}
+
+#EXP div h1{
+    font-family: 'Patrick Hand', cursive;
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
