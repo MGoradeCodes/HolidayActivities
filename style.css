@@ -79,7 +79,7 @@ h1{
 
 #EXP div p{
     color: black;
-    padding: 0;
+    padding: 0 !important;
     font-size: 25px;
     width: 985px;
     margin-left: 160px;
@@ -88,7 +88,7 @@ h1{
     text-align: center;
     display: inline-block;
     line-height: 32px;
-    margin-bottom: none;
+    margin-bottom: 0 !important;
 }
 
 #EXP div{
@@ -149,6 +149,6 @@ img{
     font-family: 'Patrick Hand', cursive;
     color: black;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
 }
